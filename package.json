@@ -20,8 +20,9 @@
     "mongodb": "2.0.45",
     "mongoose": "4.1.10",
     "markdown-js": "0.0.3",
-    "qr-image": "~2.0.0",  "bitcoin-core": "^2.0.0",
-    "bitcoin-node-api": "git+https://github.com/dsaga/Bitcoin-Node-Api.git
+    "qr-image": "~2.0.0", 
+    "bitcoin-core": "^2.0.0",
+    "bitcoin-node-api": "git+https://github.com/dsaga/Bitcoin-Node-Api.git"
   },
   "devDependencies": {
     "jasmine": "~2.1.0"
