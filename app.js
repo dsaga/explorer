@@ -1,6 +1,6 @@
 var express = require('express')
   , path = require('path')
-  , bitcoinapi = require('bitcoin-node-api')
+  , bitcoinapi_class = require('bitcoin-node-api')
   , favicon = require('static-favicon')
   , logger = require('morgan')
   , cookieParser = require('cookie-parser')
@@ -13,6 +13,8 @@ var express = require('express')
   , request = require('request');
 
 var app = express();
+
+var bitcoinapi = new bitcoinapi_class();
 
 // bitcoinapi
 bitcoinapi.setWalletDetails(settings.wallet);
